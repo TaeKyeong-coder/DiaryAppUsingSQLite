@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <!-- 데이트피커 -->
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+    <!-- 에디트 텍스트 -->
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/editDiary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:background="#FFDEA9"
+        android:lines="8" >
+    </EditText>
+    <!-- 버튼 -->
+    <Button
+        android:id="@+id/buttonWrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:backgroundTint="#cccccc"
+        android:textSize="20dp"
+        android:text="버튼" />
+</LinearLayout>
